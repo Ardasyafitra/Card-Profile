@@ -1,0 +1,116 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Layout background */
+body {
+    background-color: #eef3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Profile Card */
+.profile-card {
+    background-color: white;
+    width: 350px;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Image */
+.profile-image img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #bbd4ff;
+    margin-bottom: 15px;
+}
+
+/* Name styling */
+.name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Address */
+.address {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+/* Description text */
+.description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 25px;
+    padding: 0 10px;
+    line-height: 1.5;
+}
+
+/* Membership Section */
+.membership {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.membership .label {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.membership .status {
+    color: #f4a31e;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.renew-btn {
+    float: right;
+    background-color: white;
+    color: #4fb45f;
+    border: 1px solid #4fb45f;
+    padding: 3px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.renew-btn:hover {
+    background-color: #4fb45f;
+    color: white;
+}
+
+/* Social section */
+.social-section {
+    text-align: center;
+}
+
+.social-label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.social-icons img {
+    width: 28px;
+    margin: 0 6px;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.social-icons img:hover {
+    opacity: 1;
+}
